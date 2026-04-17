@@ -20,8 +20,8 @@
   <rect x="80" y="160" width="5" height="210" rx="2.5" fill="#c0392b"/>
 
   <!-- Main headline -->
-  <text x="113" y="250" font-family="Inter, -apple-system, sans-serif" font-size="76" font-weight="700" fill="#ffffff" letter-spacing="-3">I build things</text>
-  <text x="113" y="345" font-family="Inter, -apple-system, sans-serif" font-size="76" font-weight="700" fill="#c0392b" letter-spacing="-3">that actually work.</text>
+  <text x="113" y="245" font-family="Inter, -apple-system, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-2">Turning ideas into</text>
+  <text x="113" y="335" font-family="Inter, -apple-system, sans-serif" font-size="68" font-weight="700" fill="#c0392b" letter-spacing="-2">products that matter.</text>
 
   <!-- Sub line -->
   <text x="115" y="403" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="400" fill="#888888" letter-spacing="0.2">Full-Stack Dev &amp; AI Product Builder · Vienna</text>
