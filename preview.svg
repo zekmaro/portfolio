@@ -1,87 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap');
-    </style>
-  </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8f7f5"/>
+  <!-- Dark background -->
+  <rect width="1200" height="630" fill="#0d0d0d"/>
 
-  <!-- Subtle grid dots -->
+  <!-- Red glow blob top-right -->
+  <radialGradient id="glow" cx="85%" cy="20%" r="40%">
+    <stop offset="0%" stop-color="#c0392b" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Subtle dot grid -->
   <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-    <circle cx="20" cy="20" r="1.2" fill="#e4e3e0"/>
+    <circle cx="20" cy="20" r="1" fill="#ffffff" opacity="0.06"/>
   </pattern>
   <rect width="1200" height="630" fill="url(#dots)"/>
 
-  <!-- Left accent bar -->
-  <rect x="80" y="180" width="4" height="120" rx="2" fill="#c0392b"/>
+  <!-- Red accent bar -->
+  <rect x="80" y="160" width="5" height="210" rx="2.5" fill="#c0392b"/>
 
-  <!-- Name -->
-  <text x="108" y="248" font-family="Inter, -apple-system, sans-serif" font-size="64" font-weight="700" fill="#0d0d0d" letter-spacing="-2">Andrey Arama</text>
+  <!-- Main headline -->
+  <text x="113" y="250" font-family="Inter, -apple-system, sans-serif" font-size="76" font-weight="700" fill="#ffffff" letter-spacing="-3">I build things</text>
+  <text x="113" y="345" font-family="Inter, -apple-system, sans-serif" font-size="76" font-weight="700" fill="#c0392b" letter-spacing="-3">that actually work.</text>
 
-  <!-- Role line -->
-  <text x="110" y="300" font-family="Inter, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#666666" letter-spacing="0.2">Full-Stack Developer &amp; AI Product Builder</text>
+  <!-- Sub line -->
+  <text x="115" y="403" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="400" fill="#888888" letter-spacing="0.2">Full-Stack Dev &amp; AI Product Builder · Vienna</text>
 
-  <!-- Tagline -->
-  <text x="110" y="345" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="300" fill="#9a9a9a">Building AI-native products end-to-end · Vienna</text>
+  <!-- Divider -->
+  <rect x="80" y="490" width="1040" height="1" fill="#222222"/>
 
-  <!-- Tags -->
-  <!-- Tag 1 -->
-  <rect x="110" y="390" width="120" height="36" rx="8" fill="rgba(192,57,43,0.09)"/>
-  <text x="170" y="413" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#c0392b" text-anchor="middle">AI Products</text>
+  <!-- Bottom left: name -->
+  <text x="80" y="530" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#ffffff">Andrey Arama</text>
 
-  <!-- Tag 2 -->
-  <rect x="244" y="390" width="130" height="36" rx="8" fill="#f2f1ef"/>
-  <text x="309" y="413" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#0d0d0d" text-anchor="middle">Full-Stack</text>
+  <!-- Bottom right: domain -->
+  <text x="1120" y="530" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="500" fill="#c0392b" text-anchor="end">arama.dev</text>
 
-  <!-- Tag 3 -->
-  <rect x="388" y="390" width="130" height="36" rx="8" fill="#f2f1ef"/>
-  <text x="453" y="413" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#0d0d0d" text-anchor="middle">Architecture</text>
-
-  <!-- Tag 4 -->
-  <rect x="532" y="390" width="130" height="36" rx="8" fill="#f2f1ef"/>
-  <text x="597" y="413" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#0d0d0d" text-anchor="middle">Deployment</text>
-
-  <!-- Domain -->
-  <text x="110" y="540" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#c0392b">arama.dev</text>
-
-  <!-- Decorative right element - abstract code block -->
-  <rect x="820" y="150" width="300" height="330" rx="16" fill="#ffffff" stroke="#e4e3e0" stroke-width="1.5"/>
-  <rect x="820" y="150" width="300" height="44" rx="16" fill="#f2f1ef"/>
-  <rect x="820" y="174" width="300" height="20" fill="#f2f1ef"/>
-  <circle cx="848" cy="172" r="6" fill="#c0392b" opacity="0.7"/>
-  <circle cx="868" cy="172" r="6" fill="#e4e3e0"/>
-  <circle cx="888" cy="172" r="6" fill="#e4e3e0"/>
-
-  <!-- Code lines -->
-  <rect x="848" y="218" width="60" height="8" rx="4" fill="#c0392b" opacity="0.5"/>
-  <rect x="916" y="218" width="100" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="848" y="242" width="40" height="8" rx="4" fill="#9a9a9a" opacity="0.6"/>
-  <rect x="896" y="242" width="130" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="864" y="266" width="80" height="8" rx="4" fill="#c0392b" opacity="0.3"/>
-  <rect x="952" y="266" width="80" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="864" y="290" width="50" height="8" rx="4" fill="#9a9a9a" opacity="0.4"/>
-  <rect x="922" y="290" width="110" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="848" y="314" width="70" height="8" rx="4" fill="#c0392b" opacity="0.4"/>
-  <rect x="926" y="314" width="90" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="848" y="338" width="40" height="8" rx="4" fill="#9a9a9a" opacity="0.5"/>
-  <rect x="896" y="338" width="120" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="864" y="362" width="90" height="8" rx="4" fill="#c0392b" opacity="0.25"/>
-  <rect x="962" y="362" width="60" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="848" y="386" width="55" height="8" rx="4" fill="#9a9a9a" opacity="0.4"/>
-  <rect x="911" y="386" width="100" height="8" rx="4" fill="#e4e3e0"/>
-
-  <rect x="848" y="410" width="30" height="8" rx="4" fill="#c0392b" opacity="0.5"/>
-  <rect x="886" y="410" width="80" height="8" rx="4" fill="#e4e3e0"/>
-
-  <!-- Bottom border line -->
-  <rect x="80" y="570" width="1040" height="1" fill="#e4e3e0"/>
 </svg>
